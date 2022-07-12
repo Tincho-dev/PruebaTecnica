@@ -2,6 +2,7 @@ var productos = new Array();
 
 $(document).ready(function () {
 
+  $(document).
 
   //cargamos las categorias
   $.ajax({
@@ -120,8 +121,8 @@ $(document).ready(function () {
         </div>
         `
     )
-
   }
+
   //crea el boton categoria
   function botonCategoria(element) {
     id = element.NOMBRE
